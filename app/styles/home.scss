@@ -62,33 +62,33 @@
   }
 }
 
-.project {
-  display: flex;
-  align-items: center;
-  margin: 1.5rem 0;
+  .project {
+    display: flex;
+    align-items: center;
+    margin: 1.5rem 0;
 
-  &__info {
-    width: 75%;
+    &__info {
+      width: 75%;
 
-    &-title {
-      font-size: 16px;
+      &-title {
+        font-size: 16px;
+      }
+
+      &-p {
+
+      }
     }
 
-    &-p {
+    &__pic-l {
+      width: 25%;
+      margin-left: 2rem;
+    }
 
+    &__pic-r {
+      width: 25%;
+      margin-right: 2rem;
     }
   }
-
-  &__pic-l {
-    width: 25%;
-    margin-left: 2rem;
-  }
-
-  &__pic-r {
-    width: 25%;
-    margin-right: 2rem;
-  }
-}
 
 .footer {
   display: flex;
