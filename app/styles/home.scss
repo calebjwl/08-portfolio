@@ -3,13 +3,14 @@
 }
 
 .container {
-
+  padding: 1rem;
 }
 
 .navbar {
   display: flex;
-  justify-content: space-between;
+  position: relative;
   align-items: center;
+  justify-content: space-between;
   padding-right: 1rem;
   padding-left: 1rem;
   background: $c-navbar;
@@ -30,12 +31,12 @@
   margin: 0 1rem;
 }
 
-.banner {
+.hero {
   display: flex;
   flex-direction: column;
-  align-items: center;
   padding: 4rem;
   background: $c-banner;
+  text-align: center;
   text-transform: uppercase;
 
   &__text {
@@ -47,4 +48,64 @@
     color: $c-white;
     font-size: 15px;
   }
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 65rem;
+  margin: 5rem 13rem;
+
+  &__title {
+    font-size: 20px;
+  }
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  margin: 1.5rem 0;
+
+  &__info {
+    width: 75%;
+
+    &-title {
+      font-size: 16px;
+    }
+
+    &-p {
+
+    }
+  }
+
+  &__pic-l {
+    width: 25%;
+    margin-left: 2rem;
+  }
+
+  &__pic-r {
+    width: 25%;
+    margin-right: 2rem;
+  }
+}
+
+.footer {
+  background: $c-footer;
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+  font-size: 25px;
+
+  &__navlist {
+    color: $c-white;
+  }
+}
+
+.sm-icon {
+  margin: 0 2rem;
+}
+
+.logo {
+  width: 2rem;
 }
