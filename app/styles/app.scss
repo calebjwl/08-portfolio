@@ -5,11 +5,14 @@
 // @import 'font-awesome';
 
 $c-navbar: #233953;
-$c-banner: #2980B9;
+$c-banner: #2980b9;
 $c-white: #fefefe;
+$c-red: #df4a30;
 $c-footer: #1d1e22;
 
 
 @import 'box-sizing';
 @import 'reset';
 @import 'home';
+@import 'blog';
+@import 'city';

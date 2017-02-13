@@ -3,7 +3,9 @@
 <head>
   <meta charset="utf-8">
   <title>08-portfolio</title>
+
   <link rel="stylesheet" href="/app.css">
+  <link rel="html" href="/blog.html">
 </head>
 <body>
   <script src="/app.js" charset="utf-8"></script>
@@ -13,10 +15,10 @@
     <div class="navbar">
       <p class="name">Caleb Lee</p>
         <ul class="navbar__list">
-        <li href="/" class="list__item">Skills</li>
-        <li href="/blog.html" class="list__item">Blog</li>
-        <li href="/city.html" class="list__item">City</li>
-      </ul>
+          <a href="/" class="list__item">Skills</a>
+          <a href="blog.html" class="list__item">Blog</a>
+          <a href="/city.html" class="list__item">City</a>
+        </ul>
     </div>
 
       <div class="hero">
@@ -25,8 +27,8 @@
       </div>
 
     <div class="container">
-    <div class="body">
-      <h1 class="body__title">My Projects</h1>
+      <div class="body">
+        <h1 class="body__title">My Projects</h1>
 
         <div class="project">
           <div class="project__info">
@@ -59,7 +61,7 @@
     </div>
 
     <div class="footer">
-      <div class="footer__navlist">
+      <div class="footer__sm-list">
         <span class="fa fa-twitter sm-icon"></span>
         <span class="fa fa-facebook sm-icon"></span>
         <img src="img/logo.svg" alt="" class="logo">

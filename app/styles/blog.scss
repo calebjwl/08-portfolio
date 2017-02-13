@@ -1,0 +1,60 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 5rem;
+}
+
+.grid__item {
+  background: #fefefe;
+  margin: 1rem;
+  flex-basis: calc(100% / 2 - 2rem - 2rem);
+
+  flex-grow: 1;
+}
+
+.card {
+  margin: 0;
+  min-width: 15rem;
+  box-shadow: 3px 3px 5px rgba(0,0,0,.55);
+}
+
+.card__header {
+  position: relative;
+  background: $c-red;
+  padding-left: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.card__tag {
+  background: $c-navbar;
+  color: #fefefe;
+  padding: .5rem;
+  position: absolute;
+  margin: 0;
+  top: 0;
+  right: 50%;
+
+  transform: translate(50%, -50%);
+  box-shadow: 3px 3px 5px rgba(0,0,0,.55);
+}
+
+.card__pic {
+  border-radius: 50%;
+  width: 3rem;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%);
+  box-shadow: 3px 3px 5px rgba(0,0,0,.55);
+}
+
+.card__title {
+  margin: 0;
+  color: $c-white;
+}
+
+.card__body {
+  margin: 0;
+  padding: 1.5rem;
+}
