@@ -9,7 +9,7 @@ $c-banner: #2980b9;
 $c-white: #fefefe;
 $c-red: #df4a30;
 $c-footer: #1d1e22;
-$c-hover-black: rgba(0,0,0,.3);
+$c-hover-black: rgba(0, 0 , 0, .3);
 
 
 @import 'box-sizing';
@@ -17,3 +17,4 @@ $c-hover-black: rgba(0,0,0,.3);
 @import 'home';
 @import 'blog';
 @import 'city';
+@import 'media';

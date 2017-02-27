@@ -1,39 +1,37 @@
 .blog {
   display: flex;
+  flex-basis: 65rem;
   flex-wrap: wrap;
-  margin: 0 5rem;
 }
 
 .blog__item {
-  background: #fefefe;
-  margin: 1rem;
   flex-basis: calc(100% / 2 - 2rem - 2rem);
-
   flex-grow: 1;
+  margin: 1rem;
+  background: $c-white;
 }
 
 .card {
-  margin: 0;
   min-width: 15rem;
+  min-height: 21rem;
+  margin: 0;
   box-shadow: 3px 3px 5px rgba(0,0,0,.55);
 }
 
 .card__header {
   position: relative;
+  padding: 2rem 1rem;
   background: $c-red;
-  padding-left: 1rem;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
 }
 
 .card__tag {
-  background: $c-navbar;
-  color: #fefefe;
+  color: $c-white;
   padding: .5rem;
   position: absolute;
   margin: 0;
   top: 0;
   right: 50%;
+  background: $c-navbar;
 
   transform: translate(50%, -50%);
   box-shadow: 3px 3px 5px rgba(0,0,0,.55);
