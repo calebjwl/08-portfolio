@@ -3,4 +3,18 @@
 
 // $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 // @import 'font-awesome';
+
+$c-navbar: #233953;
+$c-banner: #2980b9;
+$c-white: #fefefe;
+$c-red: #df4a30;
+$c-footer: #1d1e22;
+$c-hover-black: rgba(0, 0 , 0, .3);
+
+
 @import 'box-sizing';
+@import 'reset';
+@import 'home';
+@import 'blog';
+@import 'city';
+@import 'media';
